@@ -1,0 +1,23 @@
+{
+  "name": "roots-cms-client",
+  "version": "0.0.0",
+  "description": "the frontend for roots-cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carrot/roots-cms-client.git"
+  },
+  "keywords": [
+    "roots-cms",
+    "roots"
+  ],
+  "author": "carrot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carrot/roots-cms-client/issues"
+  },
+  "homepage": "https://github.com/carrot/roots-cms-client"
+}
