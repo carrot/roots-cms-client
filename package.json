@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/carrot/roots-cms-client/issues"
   },
-  "homepage": "https://github.com/carrot/roots-cms-client"
+  "homepage": "https://github.com/carrot/roots-cms-client",
+  "devDependencies": {
+    "roots": "~3.0.0-rc.5"
+  }
 }
