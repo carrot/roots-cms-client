@@ -1,0 +1,44 @@
+[
+  {
+    "name": ".",
+    "content": [
+      {
+        "data": {
+          "order": 1,
+          "title": "Post 1"
+        },
+        "content": "Some content underneath the front matter.\n",
+        "id": "post_1.md"
+      },
+      {
+        "data": {
+          "order": 2,
+          "title": "Post 2"
+        },
+        "content": "Some content underneath the front matter.\n",
+        "id": "post_2.md"
+      },
+      {
+        "data": {
+          "order": 2,
+          "title": "Post 2"
+        },
+        "content": "Some content underneath the front matter.\n",
+        "id": "post_3.md"
+      }
+    ]
+  },
+  {
+    "name": "nested_content",
+    "content": [
+      {
+        "data": {
+          "order": 4,
+          "title": "Post 4 - Nested Content"
+        },
+        "content": "Some content underneath the front matter.\n",
+        "id": "nested_content/post_4.md"
+      }
+    ]
+  }
+]

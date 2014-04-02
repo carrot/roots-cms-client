@@ -22,5 +22,16 @@
   "homepage": "https://github.com/carrot/roots-cms-client",
   "devDependencies": {
     "roots": "~3.0.0-rc.5"
+  },
+  "dependencies": {
+    "axis-css": "~0.1.8",
+    "autoprefixer-stylus": "0.0.4",
+    "roots": "~3.0.0-rc.5",
+    "client-templates": "0.0.5",
+    "roots-records": "0.0.2",
+    "jade": "~1.3.0",
+    "stylus": "~0.42.3",
+    "coffee-script": "~1.7.1",
+    "marked": "~0.3.2"
   }
 }
