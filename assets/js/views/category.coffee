@@ -2,7 +2,7 @@ define ['app', 'marionette', 'templates', 'jqueryui', 'modal'], (App, Marionette
   class Category extends Marionette.ItemView
     template: templates.category
     tagName: 'li'
-    
+
     ui:
       'path': 'input'
       'modal': '.modal'

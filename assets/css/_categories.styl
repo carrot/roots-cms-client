@@ -1,6 +1,21 @@
-.new
-  simple-button(blue)
+.category-container
+  padding: 20px 0
+  border-bottom: 1px solid silver
+  font-size: 1.25rem
 
-.category
-  inline-block()
-  width: 90%
+  a.category
+    col(7/8)
+
+    span
+      color: black
+      padding: 0 25px 0 0
+      font-size: 12px
+      bold()
+      upcase()
+
+  .new
+    upcase()
+    col(1/8)
+
+    a
+      simple-button(blue, small)

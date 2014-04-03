@@ -1,8 +1,13 @@
-a.category(href="#")= name
-a.new New
-.modal
-  .close X
-  .url
-    label #{name}/
-    input
-  a.create Create
+.category-container
+  .wrap
+    a.category(href="#")
+      span Category
+      /#{name}
+    small.new: a(href="#") New
+
+  .modal
+    .close X
+    .url
+      label #{name}/
+      input
+    a.create Create
