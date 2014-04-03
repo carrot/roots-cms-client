@@ -1,18 +1,26 @@
-#content-edit
-  h1= id
-  a.back(href="/category/" + category()) Back to #{category()}
-  form
-    ul.data
-      - each v, k in data
-        li
-          strong= k + ': '
-          input(type='text', value=v, name=k)
-          br
-  button.save Save
-  button.open-commit-modal Commit
-  .contents!= content_to_html()
+#trunk
+  .wrap
+    a(href="/category/" + category())= id
 
-  .modal
-    .close X
-    input.message(type='text', placeholder="Enter a commit message")
-    button.commit Commit
+#content-edit
+  .wrap
+    form
+      h4 Attributes
+      ul.data
+        - each val, key in data
+          li
+            .key= key + ":"
+            .value: input(type='text', value=val, name=key)
+
+      button.save Save
+      button.open-commit-modal Commit
+
+
+    #contents
+      h4 Content
+      .contents!= content_to_html()
+
+    .modal
+      .close X
+      input.message(type='text', placeholder="Enter a commit message")
+      button.commit Commit

@@ -1,32 +1,30 @@
 #content-edit
-  .data
-    padding: 0
+  form
+    padding: pad 0
+    margin-bottom: pad
 
-    strong
-      column(1/6)
+    .data
+      li
+        padding: (pad/2) 0
+        margin: (pad/2) 0
 
-    input
-      width: 75%
-      padding: 5px 10px
+        .key
+          opacity: 0.3
+          upcase()
 
-    li
-      padding: 10px
+  #contents
+    h4
+      border-bottom: 2px solid silver
+      
+    .contents
+      padding-top: pad
 
-  button
-    margin-right: 10px
 
-    &.commit
-      display: block
-      margin: 20px auto
+.modal
+  height: 170px
 
-  .modal
-    height: 170px
+  input
+    size: 350px 35px
 
-    input
-      size: 350px 35px
-
-  .upload-area
-    display: none
-
-  img
-    width: 100%
+.upload-area
+  display: none
