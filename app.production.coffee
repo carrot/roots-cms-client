@@ -11,7 +11,6 @@ module.exports =
     use: [axis(), autoprefixer(), jeet()]
 
   extensions: [
-    records({ categories: { file: 'api/categories.json' } }),
     ClientTemplates
       base: 'templates/'
       pattern: '*.jade'
