@@ -20,9 +20,6 @@
     "url": "https://github.com/carrot/roots-cms-client/issues"
   },
   "homepage": "https://github.com/carrot/roots-cms-client",
-  "devDependencies": {
-    "roots": "~3.0.0-rc.5"
-  },
   "dependencies": {
     "axis-css": "~0.1.8",
     "autoprefixer-stylus": "0.0.4",
@@ -34,5 +31,8 @@
     "coffee-script": "~1.7.1",
     "marked": "~0.3.2",
     "jeet": "~5.2.6"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
   }
 }

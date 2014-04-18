@@ -5,7 +5,7 @@ ClientTemplates = require 'client-templates'
 jeet            = require 'jeet'
 
 module.exports =
-  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'api/*']
+  ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'lib', 'api/*']
 
   stylus:
     use: [axis(), autoprefixer(), jeet()]
