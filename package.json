@@ -1,6 +1,6 @@
 {
   "name": "roots-cms-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "the frontend for roots-cms",
   "main": "index.js",
   "scripts": {
