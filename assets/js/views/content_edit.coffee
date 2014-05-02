@@ -52,7 +52,8 @@ define ['marionette', 'jquery', 'templates', 'underscore', 'marked', 'pen', 'htm
       cats.pop()
       cats.join('/')
 
-    save: ->
+    save: (e) ->
+      e.preventDefault()
       modified_content = md(@ui.content.html())
       @model.set('content', modified_content)
       @model.set('data', @get_data())
