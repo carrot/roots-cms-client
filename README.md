@@ -1,6 +1,8 @@
 roots-cms-client
 ================
 
+> **This project is no longer under development**. We have created an alternative CMS workflow for roots using [Contentful](https://www.contentful.com/) and [Netlify](https://www.netlify.com/). If you're interested, read [our blog post about it](http://carrot.is/coding/static_cms) and check out our [roots-contentful extension](https://github.com/carrot/roots-contentful).
+
 The client side marionette app for [roots-cms](https://github.com/carrot/roots-cms) packaged into a node module.
 
 ### Usage
